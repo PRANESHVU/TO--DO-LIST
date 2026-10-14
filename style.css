@@ -1,0 +1,91 @@
+ body {
+      font-family: "Segoe UI", sans-serif;
+      background-image: linear-gradient( powderblue,lightpink);
+      background-repeat:no-repeat;
+      margin: 0;
+      padding: 20px;
+    }
+    .tracker {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2a5bd7;
+    }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .change-color {
+      background: #2a5bd7;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      margin: 15px 0;
+    }
+    .stat {
+      text-align: center;
+      padding: 10px 20px;
+      border-radius: 8px;
+      color: #fff;
+    }
+    .completed { background: #4caf50;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+    .pending { background: #ff9800;font-family:Verdana, Geneva, Tahoma, sans-serif; }
+    .total { background: #2196f3; font-family:Verdana, Geneva, Tahoma, sans-serif;}
+    .mission-list {
+      list-style: none;
+      padding: 0;
+    }
+    .mission-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #eef3ff;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .mission-item.completed {
+      background: #d4edda;
+      text-decoration: line-through;
+    }
+    .mission-item button {
+      background: #e74c3c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .add-section {
+      display: flex;
+      margin-top: 15px;
+    }
+    .add-section input {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .add-section button {
+      margin-left: 10px;
+      background: #2a5bd7;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
